@@ -45,11 +45,11 @@ spring:
           logSlowSql: true
           slowSqlMillis: 2000
 
-    rabbitmq:
-      host: 119.27.191.252
-      port: 5672
-      username: guest
-      password: guest
+  rabbitmq:
+    host: 119.27.191.252
+    port: 5672
+    username: guest
+    password: guest
 
 
 management:
