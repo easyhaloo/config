@@ -1,0 +1,63 @@
+spring:
+  cloud:
+    bus:
+      enabled: true
+      trace:
+        enabled: true
+
+
+  data:
+    mongodb:
+      custom:
+        hosts: localhost
+        ports: 27017
+        database: test
+        username:
+        password:
+        authenticationDatabase: "local"
+        replicaSet: "mgset-3590061"
+        connectionsPerHost: 20
+        minConnectionsPerHost: 10
+
+  redis:
+    host: 192.168.1.208
+    port: 6379
+    maxIlde: 8
+    minIdle: 0
+    maxActive: 8
+    maxWait: -1
+
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test1?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: root
+    druid:
+      initialSize: 3
+      minIdle: 3
+      maxActive: 10
+      maxWait: 60000
+      statViewServlet:
+        loginUsername: admin
+        loginPassword: admin
+      filter:
+        stat:
+          logSlowSql: true
+          slowSqlMillis: 2000
+
+    rabbitmq:
+      host: 119.27.191.252
+      port: 5672
+      username: guest
+      password: guest
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refersh
+  security:
+    enabled: false
+mybaits:
+  typeAliasesPackage: com.example.userservice.entity
