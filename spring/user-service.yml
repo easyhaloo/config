@@ -26,20 +26,22 @@ spring:
         connectionsPerHost: 20
         minConnectionsPerHost: 10
 
-  redis:
-    cluster:
-      nodes: 192.168.1.208:30001,192.168.1.208:30002,192.168.1.208:30003,192.168.1.208:30004,192.168.1.208:30005,192.168.1.208:30006
-      timeout: 5000
-      maxRedirects: 2
-      maxAttempts: 3
+  
    
-    
+  redis:
+    host: 192.168.2.222
+    port: 6379
+    maxIlde: 8
+    minIdle: 0
+    maxActive: 8
+    maxWait: -1
+  
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driverClassName: com.mysql.jdbc.Driver
     url: jdbc:mysql://192.168.2.222:3306/test2?useUnicode=true&characterEncoding=utf-8
-    username: test
-    password: Hallo2018@
+    username: root
+    password: root
     druid:
       initialSize: 3
       minIdle: 3
@@ -109,19 +111,18 @@ spring:
         minConnectionsPerHost: 10
 
   redis:
-    host: 192.168.1.208
-    port: 6379
-    maxIlde: 8
-    minIdle: 0
-    maxActive: 8
-    maxWait: -1
+    cluster:
+      nodes: 192.168.2.222:7000,192.168.2.222:7001,192.168.2.222:7002,192.168.2.222:7003,192.168.2.222:7004,192.168.2.222:7005
+      timeout: 5000
+      maxRedirects: 2
+      maxAttempts: 3
 
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driverClassName: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/test2?useUnicode=true&characterEncoding=utf-8
-    username: root
-    password: root
+    username: test
+    password: Hallo2018@
     druid:
       initialSize: 3
       minIdle: 3
@@ -136,7 +137,7 @@ spring:
           slowSqlMillis: 2000
 
   rabbitmq:
-    host: 119.27.191.252
+    host: 192.168.2.222
     port: 5672
     username: guest
     password: guest
