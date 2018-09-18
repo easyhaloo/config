@@ -1,0 +1,154 @@
+
+spring:
+  profiles:
+    active: dev
+---    
+spring:
+  profiles:
+    active: dev
+  cloud:
+    bus:
+      enabled: true
+      trace:
+        enabled: true
+
+
+  data:
+    mongodb:
+      custom:
+        hosts: localhost
+        ports: 27017
+        database: test
+        username:
+        password:
+        authenticationDatabase: "local"
+        replicaSet: "mgset-3590061"
+        connectionsPerHost: 20
+        minConnectionsPerHost: 10
+
+  redis:
+    cluster:
+      nodes: 192.168.1.208:30001,192.168.1.208:30002,192.168.1.208:30003,192.168.1.208:30004,192.168.1.208:30005,192.168.1.208:30006
+      timeout: 5000
+      maxRedirects: 2
+      maxAttempts: 3
+   
+    
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.2.222:3306/test2?useUnicode=true&characterEncoding=utf-8
+    username: test
+    password: Hallo2018@
+    druid:
+      initialSize: 3
+      minIdle: 3
+      maxActive: 10
+      maxWait: 60000
+      statViewServlet:
+        loginUsername: admin
+        loginPassword: admin
+      filter:
+        stat:
+          logSlowSql: true
+          slowSqlMillis: 2000
+
+  rabbitmq:
+    host: 192.168.2.222
+    port: 5672
+    username: guest
+    password: guest
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refersh
+  security:
+    enabled: false
+mybaits:
+  typeAliasesPackage: com.example.userservice.entity
+  
+eureka:
+  instance:
+    status-page-url: http://localhost:${server.port}/swagger-ui.html
+  client:
+    service-url:
+      defaultZone: http://register-master:8880/eureka/
+
+feign:
+  hystrix:
+    enabled: true
+
+
+server:
+  port: 8885
+  
+---
+spring:
+  profiles: test
+  cloud:
+    bus:
+      enabled: true
+      trace:
+        enabled: true
+
+
+  data:
+    mongodb:
+      custom:
+        hosts: localhost
+        ports: 27017
+        database: test
+        username:
+        password:
+        authenticationDatabase: "local"
+        replicaSet: "mgset-3590061"
+        connectionsPerHost: 20
+        minConnectionsPerHost: 10
+
+  redis:
+    host: 192.168.1.208
+    port: 6379
+    maxIlde: 8
+    minIdle: 0
+    maxActive: 8
+    maxWait: -1
+
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test2?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: root
+    druid:
+      initialSize: 3
+      minIdle: 3
+      maxActive: 10
+      maxWait: 60000
+      statViewServlet:
+        loginUsername: admin
+        loginPassword: admin
+      filter:
+        stat:
+          logSlowSql: true
+          slowSqlMillis: 2000
+
+  rabbitmq:
+    host: 119.27.191.252
+    port: 5672
+    username: guest
+    password: guest
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refersh
+  security:
+    enabled: false
+mybaits:
+  typeAliasesPackage: com.example.userservice.entity
+  
