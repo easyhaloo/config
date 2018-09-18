@@ -116,6 +116,7 @@ spring:
       timeout: 5000
       maxRedirects: 2
       maxAttempts: 3
+    password: 123456
 
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
@@ -142,7 +143,17 @@ spring:
     username: guest
     password: guest
 
+    
+eureka:
+  instance:
+    status-page-url: http://localhost:${server.port}/swagger-ui.html
+  client:
+    service-url:
+      defaultZone: http://register-master:8880/eureka/
 
+feign:
+  hystrix:
+    enabled: true 
 management:
   endpoints:
     web:
