@@ -73,12 +73,12 @@ management:
 mybaits:
   typeAliasesPackage: com.example.userservice.entity
   
-eureka:
-  instance:
-    status-page-url: http://localhost:${server.port}/swagger-ui.html
-  client:
-    service-url:
-      defaultZone: http://register-master:8880/eureka/
+#eureka:
+#  instance:
+#    status-page-url: http://localhost:${server.port}/swagger-ui.html
+#  client:
+#    service-url:
+#      defaultZone: http://register-master:8880/eureka/
 
 feign:
   hystrix:
