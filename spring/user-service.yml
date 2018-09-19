@@ -123,7 +123,7 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/test1?useUnicode=true&characterEncoding=utf-8
+    url: jdbc:mysql://localhost:3306/test2?useUnicode=true&characterEncoding=utf-8
     username: test
     password: Hallo2018@
     druid:
