@@ -10,7 +10,11 @@ spring:
   application:
     name: microservicecloud-config-dept-client
 
-
+  rabbitmq:
+    host: 192.168.1.241
+    port: 5672
+    username: guest
+    password: guest
   redis:
     host: 192.168.1.241
     port: 6379
@@ -21,7 +25,7 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.0.120:3306/cloudDB03
+    url: jdbc:mysql://localhost:3306/cloudDB03
     username: root
     password: root
     druid:
@@ -46,7 +50,7 @@ spring:
 #   type-aliases-package: com.wwj.springcloud.entities
 #   mapper-locations:
 #   - classpath:mybatis/mapper/**/*.xml
- 
+
 eureka: 
   client: #客户端注册进eureka服务列表内
     service-url: 
@@ -59,6 +63,7 @@ management:
   security:
     #是否开启actuator安全认证
     enabled: false
+
 ---
 server:
   port: 8001
@@ -66,6 +71,12 @@ spring:
   profiles: test
   application:
     name: microservicecloud-config-dept-client
+  
+  rabbitmq:
+    host: 192.168.1.241
+    port: 5672
+    username: guest
+    password: guest
   redis:
     host: 192.168.1.241
     port: 6379
