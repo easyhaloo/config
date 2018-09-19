@@ -46,7 +46,10 @@ eureka:
     instance-id: dept-8001.com
     prefer-ip-address: true
  
-
+management:
+  security:
+    #是否开启actuator安全认证
+    enabled: false
 ---
 server:
   port: 8001
@@ -65,7 +68,10 @@ spring:
       initial-size: 5
       max-total: 5
       max-wait-millis: 200  
-   
+management:
+  security:
+    #是否开启actuator安全认证
+    enabled: false   
   
   
 mybatis:
