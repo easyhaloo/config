@@ -4,10 +4,18 @@ spring:
     port: 5672
     username: guest
     password: guest
+
+ribbon:
+  #对当前服务的重试次数
+  MaxAutoRetries: 2
+  #切换到相同Server的次数
+  MaxAutoRetriesNextServer: 0  
 zuul:
   host:
     connect-timeout-millis: 60000
     socket-timeout-millis: 60000
+  #开启重试功能
+  retryable: true
   routes:
     service:
       path: /test/**
