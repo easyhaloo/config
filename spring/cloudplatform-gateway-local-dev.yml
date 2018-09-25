@@ -6,6 +6,8 @@ spring:
     password: guest
 
 ribbon:
+  connectTimeout: 500
+  ReadTimeout: 2000
   #对当前服务的重试次数
   MaxAutoRetries: 2
   #切换到相同Server的次数
