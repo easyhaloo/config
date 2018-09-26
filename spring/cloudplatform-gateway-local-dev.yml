@@ -40,15 +40,15 @@ security:
       user-info-uri:  http://127.0.0.1:9092/user
       prefer-token-info: false
 
-cloudplatform-service-local:     
-  ribbon:
-    connectTimeout: 500
-    ReadTimeout: 2000
+    
+ribbon:
+  connectTimeout: 500
+  readTimeout: 2000
   #对当前服务的重试次数
-    MaxAutoRetries: 2
+  maxAutoRetries: 2
   #切换到相同Server的次数
-    MaxAutoRetriesNextServer: 3
-    OkToRetryOnAllOperations: true
+  maxAutoRetriesNextServer: 3
+  okToRetryOnAllOperations: true
 hystrix:
   command:
     default:
