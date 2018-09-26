@@ -9,13 +9,13 @@ zuul:
   host:
     connect-timeout-millis: 6000
     socket-timeout-millis: 6000
+  retryable: true
   routes:
     service:
       path: /test/**
       strip-prefix: true
       sensitiveHeaders:
       serviceId: cloudplatform-service-local
-      retryable: true
     auth:
       path: /auth/**
       strip-prefix: true
@@ -47,6 +47,7 @@ ribbon:
   MaxAutoRetries: 2
   #切换到相同Server的次数
   MaxAutoRetriesNextServer: 1
+  OkToRetryOnAllOperations: true
   eureka:
     enabled: false
 hystrix:
@@ -57,7 +58,7 @@ hystrix:
           enabled: true
         isolation:
           thread:
-            timeoutInMilliseconds: 6000
+            timeoutInMilliseconds: 8000
 #启动feign熔断器功能
 feign:
   hystrix:
