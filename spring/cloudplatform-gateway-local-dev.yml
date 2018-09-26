@@ -9,14 +9,14 @@ zuul:
   host:
     connect-timeout-millis: 6000
     socket-timeout-millis: 6000
- 
+  #开启全局重试机制  
+  retryable: true
   routes:
     service:
       path: /test/**
       strip-prefix: true
       sensitiveHeaders:
-      serviceId: cloudplatform-service-local
-     
+      serviceId: cloudplatform-service-local     
     auth:
       path: /auth/**
       strip-prefix: true
