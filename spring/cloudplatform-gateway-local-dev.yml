@@ -45,7 +45,7 @@ cloudplatform-service-local:
     connectTimeout: 500
     readTimeout: 2000
       #同一个Server重试的次数(除去首次)
-    MaxAutoRetries: 2
+    MaxAutoRetries: 3
       #切换到相同Server的次数
     MaxAutoRetriesNextServer: 0
     okToRetryOnAllOperations: true
