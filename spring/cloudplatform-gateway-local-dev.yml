@@ -9,7 +9,7 @@ zuul:
   host:
     connect-timeout-millis: 6000
     socket-timeout-millis: 6000
-  retryable: true
+ 
   routes:
     service:
       path: /test/**
