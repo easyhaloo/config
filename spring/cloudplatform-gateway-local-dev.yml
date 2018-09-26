@@ -16,6 +16,7 @@ zuul:
       strip-prefix: true
       sensitiveHeaders:
       serviceId: cloudplatform-service-local
+      retryable: true
     auth:
       path: /auth/**
       strip-prefix: true
@@ -39,17 +40,15 @@ security:
       user-info-uri:  http://127.0.0.1:9092/user
       prefer-token-info: false
 
-      
-ribbon:
-  connectTimeout: 500
-  ReadTimeout: 2000
+cloudplatform-service-local:     
+  ribbon:
+    connectTimeout: 500
+    ReadTimeout: 2000
   #对当前服务的重试次数
-  MaxAutoRetries: 2
+    MaxAutoRetries: 2
   #切换到相同Server的次数
-  MaxAutoRetriesNextServer: 1
-  OkToRetryOnAllOperations: true
-  eureka:
-    enabled: false
+    MaxAutoRetriesNextServer: 1
+    OkToRetryOnAllOperations: true
 hystrix:
   command:
     default:
