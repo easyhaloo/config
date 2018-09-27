@@ -54,15 +54,6 @@ cloudplatform-service-local:
     #切换到不同Server的次数
     MaxAutoRetriesNextServer: 3
     okToRetryOnAllOperations: true
-hystrix:
-  command:
-    default:
-      execution:
-        timeout:
-          enabled: true
-        isolation:
-          thread:
-            timeoutInMilliseconds: 120000
 #启动feign熔断器功能
 feign:
   hystrix:
