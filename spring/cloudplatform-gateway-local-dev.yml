@@ -20,7 +20,6 @@ zuul:
       strip-prefix: true
       sensitiveHeaders:
       serviceId: cloudplatform-service-local
-      retryable: true
     auth:
       path: /auth/**
       strip-prefix: true
