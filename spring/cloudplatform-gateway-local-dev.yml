@@ -4,11 +4,11 @@ spring:
       max-file-size: 1000Mb
       max-request-size: 1000Mb
   rabbitmq:
-    host: 192.168.1.241
+    host: 192.168.2.222
     port: 5672
     username: guest
     password: guest
- 
+
 zuul:
   host:
     connect-timeout-millis: 6000
@@ -33,17 +33,17 @@ zuul:
 security:
   basic:
     enabled: false
-  oauth2:
-    client:
-#     client-id: webApp
-#     client-secret: webApp
-      access-token-uri: http://192.168.1.241:9091/auth/oauth/token    #网关的地址
-      user-authorization-uri: http://192.168.1.241:9091/auth/oauth/authorize
-    resource:
-      user-info-uri:  http://192.168.1.241:9092/user
-      prefer-token-info: false
+#   oauth2:
+#     client:
+# #     client-id: webApp
+# #     client-secret: webApp
+#       access-token-uri: http://192.168.1.241:9091/auth/oauth/token    #网关的地址
+#       user-authorization-uri: http://192.168.1.241:9091/auth/oauth/authorize
+#     resource:
+#       user-info-uri:  http://192.168.1.241:9092/user
+#       prefer-token-info: false
 
-cloudplatform-service-local:    
+cloudplatform-service-local:
   ribbon:
     connectTimeout: 500
     readTimeout: 2000
@@ -58,7 +58,7 @@ hystrix:
     default:
       execution:
         isolation:
-          thread:  
+          thread:
             timeoutInMilliseconds: 120000
 #启动feign熔断器功能
 feign:
