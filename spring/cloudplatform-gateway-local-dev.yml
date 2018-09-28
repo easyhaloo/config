@@ -1,8 +1,8 @@
 spring:
   http:
     multipart:
-      max-file-size: 100Mb
-      max-request-size: 100Mb
+      max-file-size: 1000Mb
+      max-request-size: 1000Mb
   rabbitmq:
     host: 192.168.1.241
     port: 5672
@@ -38,10 +38,10 @@ security:
     client:
 #     client-id: webApp
 #     client-secret: webApp
-      access-token-uri: http://127.0.0.1:9091/auth/oauth/token    #网关的地址
-      user-authorization-uri: http://127.0.0.1:9091/auth/oauth/authorize
+      access-token-uri: http://192.168.1.241:9091/auth/oauth/token    #网关的地址
+      user-authorization-uri: http://192.168.1.241:9091/auth/oauth/authorize
     resource:
-      user-info-uri:  http://127.0.0.1:9092/user
+      user-info-uri:  http://192.168.1.241:9092/user
       prefer-token-info: false
 
 cloudplatform-service-local:    
@@ -53,15 +53,14 @@ cloudplatform-service-local:
     #切换到不同Server的次数
     MaxAutoRetriesNextServer: 3
     okToRetryOnAllOperations: true
+
 hystrix:
   command:
     default:
       execution:
-        timeout:
-          enabled: true
         isolation:
-          thread:
-            timeoutInMilliseconds: 8000
+          thread:  
+            timeoutInMilliseconds: 120000
 #启动feign熔断器功能
 feign:
   hystrix:
