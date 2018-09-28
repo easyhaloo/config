@@ -16,7 +16,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://192.168.2.222:3306/test?useUnicode=true&characterEncoding=UTF-8&useSSL=false
     username: test
-    password: Hallo2018@
+    password: Haloo2018@
     # 下面为连接池的补充设置，应用到上面所有数据源中
     # 初始化大小，最小，最大
     initialSize: 10
