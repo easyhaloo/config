@@ -43,6 +43,9 @@ security:
 #       user-info-uri:  http://192.168.1.241:9092/user
 #       prefer-token-info: false
 
+ribbon:
+  connectTimeout: 600000
+  readTimeout: 600000
 cloudplatform-service-local:
   ribbon:
     connectTimeout: 600000
