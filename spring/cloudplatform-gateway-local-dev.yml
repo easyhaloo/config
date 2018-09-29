@@ -41,9 +41,9 @@ security:
  #     client-secret: webApp
         access-token-uri: http://192.168.1.241:9091/auth/oauth/token    #网关的地址
         user-authorization-uri: http://192.168.1.241:9091/auth/oauth/authorize
-     resource:
-       user-info-uri: http://192.168.1.241:9092/user
-       prefer-token-info: false
+      resource:
+        user-info-uri: http://192.168.1.241:9092/user
+        prefer-token-info: false
 
 
 cloudplatform-service-local:
