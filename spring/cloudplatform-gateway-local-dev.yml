@@ -1,6 +1,7 @@
 spring:
   http:
     multipart:
+      file-size-threshold: 5Mb
       max-file-size: 1000Mb
       max-request-size: 1000Mb
   rabbitmq:
