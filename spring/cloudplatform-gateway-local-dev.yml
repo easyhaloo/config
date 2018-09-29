@@ -11,8 +11,8 @@ spring:
 
 zuul:
   host:
-    connect-timeout-millis: 60000
-    socket-timeout-millis: 6000
+    connect-timeout-millis: 2000
+    socket-timeout-millis: 2000
   retryable: true
   routes:
     service:
@@ -43,13 +43,11 @@ security:
       user-info-uri: http://192.168.1.241:9092/user
       prefer-token-info: false
 
-ribbon:
-  connectTimeout: 600000
-  readTimeout: 600000
+
 cloudplatform-service-local:
   ribbon:
-    connectTimeout: 600000
-    readTimeout: 600000
+    connectTimeout: 500
+    readTimeout: 2000
     #同一个Server重试的次数(除去首次)
     MaxAutoRetries: 3
     #切换到不同Server的次数
@@ -62,7 +60,7 @@ hystrix:
       execution:
         isolation:
           thread:
-            timeoutInMilliseconds: 1200000
+            timeoutInMilliseconds: 60000
 #启动feign熔断器功能
 feign:
   hystrix:
