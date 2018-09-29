@@ -12,8 +12,8 @@ spring:
 
 zuul:
   host:
-    connect-timeout-millis: 2000
-    socket-timeout-millis: 2000
+    connect-timeout-millis: 200000
+    socket-timeout-millis: 200000
   retryable: true
   routes:
     service:
@@ -61,7 +61,7 @@ hystrix:
       execution:
         isolation:
           thread:
-            timeoutInMilliseconds: 60000
+            timeoutInMilliseconds: 600000
 #启动feign熔断器功能
 feign:
   hystrix:
