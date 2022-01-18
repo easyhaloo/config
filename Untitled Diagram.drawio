@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-01-18T11:07:06.696Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="OTY6LpgVv-7qEczzSZIL" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-18T11:10:41.410Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="E6G5V36LYrPWc3-80FLT" version="16.2.7" type="github">
   <diagram id="6I0OCvxSQrVGMHxT2VVA" name="Page-1">
     <mxGraphModel dx="1188" dy="640" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="APhI3Lt8eEszKTMGjxDB-45" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontFamily=Helvetica;fontSize=11;fontColor=#333333;strokeColor=#006658;fillColor=#21C0A5;" edge="1" parent="1" source="APhI3Lt8eEszKTMGjxDB-1" target="APhI3Lt8eEszKTMGjxDB-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="APhI3Lt8eEszKTMGjxDB-1" value="" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="1">
-          <mxGeometry x="140" y="150" width="40" height="60" as="geometry" />
+          <mxGeometry x="123" y="150" width="57" height="60" as="geometry" />
         </mxCell>
         <mxCell id="APhI3Lt8eEszKTMGjxDB-2" value="外网数据同步系统" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="270" y="150" width="120" height="60" as="geometry" />
@@ -70,6 +73,21 @@
             <mxPoint x="331" y="371" as="sourcePoint" />
             <mxPoint x="202" y="392" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="APhI3Lt8eEszKTMGjxDB-41" value="案件信息、&lt;br&gt;证据信息展示" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="52" y="516" width="83" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="APhI3Lt8eEszKTMGjxDB-42" value="辅助法官编写判决书" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="184" y="521" width="119" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="APhI3Lt8eEszKTMGjxDB-43" value="答辩信息统一管理与展示" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="332" y="519" width="143" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="APhI3Lt8eEszKTMGjxDB-44" value="案件笔记统一" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="504" y="514" width="83" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="APhI3Lt8eEszKTMGjxDB-46" value="当事人起诉" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="113" y="220" width="71" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
