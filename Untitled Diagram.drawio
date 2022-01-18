@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-18T11:28:30.738Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="VBJnvhgmyGMlWHOu2b-U" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-18T11:29:00.511Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="9Gd3BaTr-TLPTVLL0knO" version="16.2.7" type="github">
   <diagram id="6I0OCvxSQrVGMHxT2VVA" name="Page-1">
     <mxGraphModel dx="3527" dy="640" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="1">
       <root>
@@ -67,17 +67,14 @@
         <mxCell id="APhI3Lt8eEszKTMGjxDB-44" value="案件笔记统一管理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="553" y="520" width="107" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="APhI3Lt8eEszKTMGjxDB-60" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontFamily=Helvetica;fontSize=11;fontColor=#333333;strokeColor=#006658;fillColor=#21C0A5;" edge="1" parent="1" source="APhI3Lt8eEszKTMGjxDB-46" target="APhI3Lt8eEszKTMGjxDB-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="APhI3Lt8eEszKTMGjxDB-46" value="当事人起诉" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="107" y="220" width="71" height="18" as="geometry" />
+        <mxCell id="APhI3Lt8eEszKTMGjxDB-46" value="当事人" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="116" y="220" width="47" height="18" as="geometry" />
         </mxCell>
         <mxCell id="APhI3Lt8eEszKTMGjxDB-47" value="" style="shape=actor;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=#333333;fillColor=#21C0A5;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="508" y="290" width="57" height="60" as="geometry" />
         </mxCell>
         <mxCell id="APhI3Lt8eEszKTMGjxDB-48" value="法官" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="524" y="371" width="35" height="18" as="geometry" />
+          <mxGeometry x="522" y="359" width="35" height="18" as="geometry" />
         </mxCell>
         <mxCell id="APhI3Lt8eEszKTMGjxDB-53" value="" style="endArrow=classic;html=1;rounded=1;dashed=1;sketch=0;fontFamily=Helvetica;fontSize=11;fontColor=#333333;strokeColor=#006658;fillColor=#21C0A5;curved=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.26;entryY=0.031;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="APhI3Lt8eEszKTMGjxDB-2" target="APhI3Lt8eEszKTMGjxDB-10">
           <mxGeometry relative="1" as="geometry">
