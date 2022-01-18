@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-18T11:16:31.704Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="gKn5HKdAg3cjCr_j_FEj" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-18T11:23:54.943Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="aEQiiGVH5Nl986Ue0kgc" version="16.2.7" type="github">
   <diagram id="6I0OCvxSQrVGMHxT2VVA" name="Page-1">
-    <mxGraphModel dx="1188" dy="640" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="1">
+    <mxGraphModel dx="3527" dy="640" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,41 +14,25 @@
           <mxGeometry x="270" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="APhI3Lt8eEszKTMGjxDB-4" value="文书渲染系统" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="18" y="301" width="120" height="60" as="geometry" />
+          <mxGeometry x="-53" y="223" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="APhI3Lt8eEszKTMGjxDB-5" value="算法辅助系统" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="553" y="300" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="APhI3Lt8eEszKTMGjxDB-22" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;strokeColor=#006658;fillColor=#21C0A5;dashed=1;" edge="1" parent="1" source="APhI3Lt8eEszKTMGjxDB-10" target="APhI3Lt8eEszKTMGjxDB-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="APhI3Lt8eEszKTMGjxDB-36" value="&lt;font color=&quot;#333333&quot;&gt;文书渲染&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=#FFFFFF;" vertex="1" connectable="0" parent="APhI3Lt8eEszKTMGjxDB-22">
-          <mxGeometry x="0.0222" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="APhI3Lt8eEszKTMGjxDB-23" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;strokeColor=#006658;fillColor=#21C0A5;" edge="1" parent="1" source="APhI3Lt8eEszKTMGjxDB-10" target="APhI3Lt8eEszKTMGjxDB-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="APhI3Lt8eEszKTMGjxDB-37" value="OCR、证据比对辅助" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=#333333;" vertex="1" connectable="0" parent="APhI3Lt8eEszKTMGjxDB-23">
-          <mxGeometry x="-0.019" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+          <mxGeometry x="-52" y="304" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="APhI3Lt8eEszKTMGjxDB-10" value="&lt;font color=&quot;#ffffff&quot;&gt;内网法官工作台&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="1">
           <mxGeometry x="270" y="290" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="APhI3Lt8eEszKTMGjxDB-11" value="&lt;font color=&quot;#ffffff&quot;&gt;案件信息展示&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="1">
-          <mxGeometry x="47" y="468" width="120" height="40" as="geometry" />
+          <mxGeometry x="71" y="471" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="APhI3Lt8eEszKTMGjxDB-12" value="判决书编写" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="200" y="470" width="120" height="40" as="geometry" />
+          <mxGeometry x="230" y="470" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="APhI3Lt8eEszKTMGjxDB-13" value="答辩信息管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="353" y="468" width="120" height="40" as="geometry" />
+          <mxGeometry x="383" y="468" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="APhI3Lt8eEszKTMGjxDB-14" value="案件笔记管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="515" y="468" width="120" height="40" as="geometry" />
+          <mxGeometry x="543" y="470" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="APhI3Lt8eEszKTMGjxDB-26" value="" style="endArrow=classic;html=1;rounded=1;dashed=1;sketch=0;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;strokeColor=#006658;fillColor=#21C0A5;curved=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="APhI3Lt8eEszKTMGjxDB-10" target="APhI3Lt8eEszKTMGjxDB-14">
           <mxGeometry relative="1" as="geometry">
@@ -75,16 +59,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="APhI3Lt8eEszKTMGjxDB-41" value="案件信息、&lt;br&gt;证据信息展示" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="52" y="516" width="83" height="31" as="geometry" />
+          <mxGeometry x="91" y="516" width="83" height="31" as="geometry" />
         </mxCell>
         <mxCell id="APhI3Lt8eEszKTMGjxDB-42" value="辅助法官编写判决书" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="184" y="521" width="119" height="18" as="geometry" />
+          <mxGeometry x="227" y="521" width="119" height="18" as="geometry" />
         </mxCell>
         <mxCell id="APhI3Lt8eEszKTMGjxDB-43" value="答辩信息统一管理与展示" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="345" y="521" width="143" height="18" as="geometry" />
+          <mxGeometry x="375" y="521" width="143" height="18" as="geometry" />
         </mxCell>
         <mxCell id="APhI3Lt8eEszKTMGjxDB-44" value="案件笔记统一管理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="523" y="520" width="107" height="18" as="geometry" />
+          <mxGeometry x="553" y="520" width="107" height="18" as="geometry" />
         </mxCell>
         <mxCell id="APhI3Lt8eEszKTMGjxDB-60" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontFamily=Helvetica;fontSize=11;fontColor=#333333;strokeColor=#006658;fillColor=#21C0A5;" edge="1" parent="1" source="APhI3Lt8eEszKTMGjxDB-46" target="APhI3Lt8eEszKTMGjxDB-1">
           <mxGeometry relative="1" as="geometry" />
@@ -93,10 +77,10 @@
           <mxGeometry x="113" y="220" width="71" height="18" as="geometry" />
         </mxCell>
         <mxCell id="APhI3Lt8eEszKTMGjxDB-47" value="" style="shape=actor;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=#333333;fillColor=#21C0A5;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="697" y="453" width="57" height="60" as="geometry" />
+          <mxGeometry x="445" y="294" width="57" height="60" as="geometry" />
         </mxCell>
         <mxCell id="APhI3Lt8eEszKTMGjxDB-48" value="法官" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="710" y="521" width="35" height="18" as="geometry" />
+          <mxGeometry x="457" y="363" width="35" height="18" as="geometry" />
         </mxCell>
         <mxCell id="APhI3Lt8eEszKTMGjxDB-53" value="" style="endArrow=classic;html=1;rounded=1;dashed=1;sketch=0;fontFamily=Helvetica;fontSize=11;fontColor=#333333;strokeColor=#006658;fillColor=#21C0A5;curved=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.26;entryY=0.031;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="APhI3Lt8eEszKTMGjxDB-2" target="APhI3Lt8eEszKTMGjxDB-10">
           <mxGeometry relative="1" as="geometry">
@@ -121,6 +105,48 @@
         </mxCell>
         <mxCell id="APhI3Lt8eEszKTMGjxDB-59" value="数据&lt;br&gt;交换" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="311" y="235" width="35" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="APhI3Lt8eEszKTMGjxDB-62" value="统一账号系统" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-51" y="388" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="APhI3Lt8eEszKTMGjxDB-64" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontFamily=Helvetica;fontSize=11;fontColor=#333333;strokeColor=#006658;fillColor=#21C0A5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="181" y="181" as="sourcePoint" />
+            <mxPoint x="271" y="181" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="APhI3Lt8eEszKTMGjxDB-65" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontFamily=Helvetica;fontSize=11;fontColor=#333333;strokeColor=#006658;fillColor=#21C0A5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="182" y="182" as="sourcePoint" />
+            <mxPoint x="272" y="182" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="APhI3Lt8eEszKTMGjxDB-66" value="" style="endArrow=classic;html=1;rounded=1;dashed=1;sketch=0;fontFamily=Helvetica;fontSize=11;fontColor=#333333;strokeColor=#006658;fillColor=#21C0A5;curved=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="APhI3Lt8eEszKTMGjxDB-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="269" y="329" as="sourcePoint" />
+            <mxPoint x="336" y="312" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="APhI3Lt8eEszKTMGjxDB-67" value="文书渲染" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=#333333;strokeColor=#21C0A5;fillColor=#106659;gradientColor=#ffffff;" connectable="0" vertex="1" parent="APhI3Lt8eEszKTMGjxDB-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="APhI3Lt8eEszKTMGjxDB-68" value="" style="endArrow=classic;html=1;rounded=1;dashed=1;sketch=0;fontFamily=Helvetica;fontSize=11;fontColor=#333333;strokeColor=#006658;fillColor=#21C0A5;curved=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="APhI3Lt8eEszKTMGjxDB-10" target="APhI3Lt8eEszKTMGjxDB-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="236" y="312" as="sourcePoint" />
+            <mxPoint x="336" y="312" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="APhI3Lt8eEszKTMGjxDB-69" value="证书识别、证据比对" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=#333333;strokeColor=#21C0A5;fillColor=#106659;gradientColor=#ffffff;" connectable="0" vertex="1" parent="APhI3Lt8eEszKTMGjxDB-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="APhI3Lt8eEszKTMGjxDB-70" value="用户权限认证" style="endArrow=classic;html=1;rounded=1;dashed=1;sketch=0;fontFamily=Helvetica;fontSize=11;fontColor=#333333;strokeColor=#006658;fillColor=#21C0A5;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="333" as="sourcePoint" />
+            <mxPoint x="75" y="416" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="APhI3Lt8eEszKTMGjxDB-71" value="Label" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=#333333;strokeColor=#21C0A5;fillColor=#106659;gradientColor=#ffffff;" connectable="0" vertex="1" parent="APhI3Lt8eEszKTMGjxDB-70">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
