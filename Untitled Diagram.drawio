@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-18T11:05:32.692Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="t5a8hbV4tetutqQl9530" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-18T11:06:14.104Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="OvoE4nqdDX_8Cezd345D" version="16.2.7" type="github">
   <diagram id="6I0OCvxSQrVGMHxT2VVA" name="Page-1">
     <mxGraphModel dx="1188" dy="640" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="1">
       <root>
@@ -19,8 +19,18 @@
         <mxCell id="APhI3Lt8eEszKTMGjxDB-22" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;strokeColor=#006658;fillColor=#21C0A5;dashed=1;" edge="1" parent="1" source="APhI3Lt8eEszKTMGjxDB-10" target="APhI3Lt8eEszKTMGjxDB-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="APhI3Lt8eEszKTMGjxDB-36" value="&lt;font color=&quot;#333333&quot;&gt;文书渲染&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=#FFFFFF;" vertex="1" connectable="0" parent="APhI3Lt8eEszKTMGjxDB-22">
+          <mxGeometry x="0.0222" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="APhI3Lt8eEszKTMGjxDB-23" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;fontFamily=Helvetica;fontSize=11;fontColor=#FFFFFF;strokeColor=#006658;fillColor=#21C0A5;" edge="1" parent="1" source="APhI3Lt8eEszKTMGjxDB-10" target="APhI3Lt8eEszKTMGjxDB-5">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="APhI3Lt8eEszKTMGjxDB-37" value="OCR、证据比对辅助" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=#333333;" vertex="1" connectable="0" parent="APhI3Lt8eEszKTMGjxDB-23">
+          <mxGeometry x="-0.019" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="APhI3Lt8eEszKTMGjxDB-10" value="&lt;font color=&quot;#ffffff&quot;&gt;内网法官工作台&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="1">
           <mxGeometry x="270" y="290" width="120" height="80" as="geometry" />
