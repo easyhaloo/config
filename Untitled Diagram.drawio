@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-02-26T07:06:02.226Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="uTcsnVX5OlwqM2hrxxUY" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-26T07:07:37.606Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="CIRsfcj82XWJXq2Z5Wt8" version="16.2.7" type="github">
   <diagram id="OcVQEDXu7nUOIg3Wxhq2" name="Page-1">
     <mxGraphModel dx="946" dy="588" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="e8YckfYskvcJTgNlKwXh-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="e8YckfYskvcJTgNlKwXh-6" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000099;" vertex="1" parent="1">
           <mxGeometry x="15" y="47" width="325" height="375" as="geometry" />
         </mxCell>
         <mxCell id="e8YckfYskvcJTgNlKwXh-1" value="赔偿依据" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
@@ -21,6 +21,9 @@
         </mxCell>
         <mxCell id="e8YckfYskvcJTgNlKwXh-5" value="责任承担方式" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="32" y="293" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e8YckfYskvcJTgNlKwXh-7" value="知产图谱" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000099;" vertex="1" parent="1">
+          <mxGeometry x="220" y="391" width="120" height="31" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
