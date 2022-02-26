@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-26T07:16:35.567Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="PH_afeD7NwBxIsX-RzgQ" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-26T07:16:53.994Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="lSjDlbfnjEeqesqx_rV2" version="16.2.7" type="github">
   <diagram id="OcVQEDXu7nUOIg3Wxhq2" name="Page-1">
     <mxGraphModel dx="946" dy="588" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -28,16 +28,16 @@
         <mxCell id="e8YckfYskvcJTgNlKwXh-8" value="要素化起诉" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000099;" vertex="1" parent="1">
           <mxGeometry x="434" y="43" width="120" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="e8YckfYskvcJTgNlKwXh-10" value="要素审查" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000099;" vertex="1" parent="1">
+        <mxCell id="e8YckfYskvcJTgNlKwXh-10" value="要素审查" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#56517e;fillColor=#d0cee2;" vertex="1" parent="1">
           <mxGeometry x="435" y="131" width="120" height="54" as="geometry" />
         </mxCell>
         <mxCell id="e8YckfYskvcJTgNlKwXh-11" value="要素案件模型" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#10739e;fillColor=#b1ddf0;" vertex="1" parent="1">
           <mxGeometry x="437" y="281" width="120" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="e8YckfYskvcJTgNlKwXh-12" value="要素化答辩" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000099;" vertex="1" parent="1">
+        <mxCell id="e8YckfYskvcJTgNlKwXh-12" value="要素化答辩" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#56517e;fillColor=#d0cee2;" vertex="1" parent="1">
           <mxGeometry x="621" y="137" width="115" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="e8YckfYskvcJTgNlKwXh-14" value="争议焦点归纳" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000099;" vertex="1" parent="1">
+        <mxCell id="e8YckfYskvcJTgNlKwXh-14" value="争议焦点归纳" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#56517e;fillColor=#d0cee2;" vertex="1" parent="1">
           <mxGeometry x="622" y="194" width="115" height="29" as="geometry" />
         </mxCell>
         <mxCell id="e8YckfYskvcJTgNlKwXh-15" value="判决书生成" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#b46504;fillColor=#fad7ac;" vertex="1" parent="1">
