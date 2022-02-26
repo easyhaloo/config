@@ -1,9 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2022-02-26T06:54:41.447Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="ziEYGlv-bYLvz8nlAs-V" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-26T07:01:37.423Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="aIEsj-JQwK1Zlmdyxhtq" version="16.2.7" type="github">
   <diagram id="OcVQEDXu7nUOIg3Wxhq2" name="Page-1">
     <mxGraphModel dx="946" dy="588" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="e8YckfYskvcJTgNlKwXh-1" value="知产知识图谱" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="32" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e8YckfYskvcJTgNlKwXh-2" value="权利客体" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="198" y="103" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e8YckfYskvcJTgNlKwXh-3" value="权属事实" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="195" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e8YckfYskvcJTgNlKwXh-4" value="侵权事实" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="294" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
