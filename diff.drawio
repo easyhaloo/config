@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-28T10:49:27.804Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="AP9j7j5Q2alwFk4W5S4D" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-28T10:49:53.359Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="R-DmNAp1szgFe1IH02em" version="16.2.7" type="github">
   <diagram id="Q5mlm8pNXK8vwRuRoZ7s" name="Page-1">
     <mxGraphModel dx="1186" dy="3888" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -112,6 +112,9 @@
         </mxCell>
         <mxCell id="qyKtld63JDXhDD5pqwNW-80" value="使用通用API" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="348" y="-290" width="78" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="qyKtld63JDXhDD5pqwNW-81" value="使用元数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="137" y="-297" width="70" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
