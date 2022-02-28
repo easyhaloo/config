@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-28T08:26:22.790Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="l96LSXcJtt46N8ARMusG" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-28T08:27:46.487Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="SAmwKf5TmCV2dJHwtbqx" version="16.2.7" type="github">
   <diagram id="Q5mlm8pNXK8vwRuRoZ7s" name="Page-1">
     <mxGraphModel dx="946" dy="3888" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -45,6 +45,31 @@
         </mxCell>
         <mxCell id="qyKtld63JDXhDD5pqwNW-36" value="输出schema" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="463" y="-384" width="76" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="qyKtld63JDXhDD5pqwNW-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qyKtld63JDXhDD5pqwNW-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="197" y="-234" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qyKtld63JDXhDD5pqwNW-44" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="-264" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qyKtld63JDXhDD5pqwNW-47" value="要素修改" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="104" y="-257" width="58" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="qyKtld63JDXhDD5pqwNW-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="qyKtld63JDXhDD5pqwNW-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="241" y="-234" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qyKtld63JDXhDD5pqwNW-51" value="前端渲染" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="-274.5" width="116" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="qyKtld63JDXhDD5pqwNW-52" value="手动修改" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="263" y="-260.5" width="58" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="qyKtld63JDXhDD5pqwNW-53" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="203" y="-264" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
