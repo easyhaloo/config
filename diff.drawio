@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-28T08:27:46.487Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="SAmwKf5TmCV2dJHwtbqx" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-28T08:29:00.350Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="lgn6ClMckd7_ZsV3orrM" version="16.2.7" type="github">
   <diagram id="Q5mlm8pNXK8vwRuRoZ7s" name="Page-1">
-    <mxGraphModel dx="946" dy="3888" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="3888" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,13 +19,13 @@
         <mxCell id="qyKtld63JDXhDD5pqwNW-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qyKtld63JDXhDD5pqwNW-22" target="qyKtld63JDXhDD5pqwNW-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qyKtld63JDXhDD5pqwNW-22" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;html=1;" vertex="1" parent="1">
+        <mxCell id="qyKtld63JDXhDD5pqwNW-22" value="建模" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;html=1;" vertex="1" parent="1">
           <mxGeometry x="54" y="-387" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qyKtld63JDXhDD5pqwNW-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qyKtld63JDXhDD5pqwNW-27" target="qyKtld63JDXhDD5pqwNW-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qyKtld63JDXhDD5pqwNW-27" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="qyKtld63JDXhDD5pqwNW-27" value="后端" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="196" y="-387" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qyKtld63JDXhDD5pqwNW-29" value="要素修改" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -48,28 +48,28 @@
         </mxCell>
         <mxCell id="qyKtld63JDXhDD5pqwNW-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qyKtld63JDXhDD5pqwNW-44">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="197" y="-234" as="targetPoint" />
+            <mxPoint x="189" y="-215" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qyKtld63JDXhDD5pqwNW-44" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="55" y="-264" width="30" height="60" as="geometry" />
+        <mxCell id="qyKtld63JDXhDD5pqwNW-44" value="建模" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="47" y="-245" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qyKtld63JDXhDD5pqwNW-47" value="要素修改" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="104" y="-257" width="58" height="18" as="geometry" />
+          <mxGeometry x="96" y="-238" width="58" height="18" as="geometry" />
         </mxCell>
         <mxCell id="qyKtld63JDXhDD5pqwNW-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="qyKtld63JDXhDD5pqwNW-51">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="241" y="-234" as="sourcePoint" />
+            <mxPoint x="233" y="-215" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qyKtld63JDXhDD5pqwNW-51" value="前端渲染" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="345" y="-274.5" width="116" height="81" as="geometry" />
+          <mxGeometry x="337" y="-255.5" width="116" height="81" as="geometry" />
         </mxCell>
         <mxCell id="qyKtld63JDXhDD5pqwNW-52" value="手动修改" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="263" y="-260.5" width="58" height="18" as="geometry" />
+          <mxGeometry x="255" y="-241.5" width="58" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="qyKtld63JDXhDD5pqwNW-53" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="203" y="-264" width="30" height="60" as="geometry" />
+        <mxCell id="qyKtld63JDXhDD5pqwNW-53" value="前端" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="195" y="-245" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
